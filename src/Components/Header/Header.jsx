@@ -16,7 +16,7 @@ function Header() {
         </Link>
         <ul className="horizontal-list">
           <li>
-            <Link className="underline-animation" to="/">
+            <Link className="underline-animation" to="/Portfolio-Project">
               Home
             </Link>
           </li>
