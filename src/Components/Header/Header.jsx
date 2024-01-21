@@ -21,18 +21,27 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link className="underline-animation" to={"/about"}>
+            <Link
+              className="underline-animation"
+              to={"/Portfolio-Project/about"}
+            >
               About
             </Link>
           </li>
 
           <li>
-            <Link className="underline-animation" to={"/projects"}>
+            <Link
+              className="underline-animation"
+              to={"/Portfolio-Project/projects"}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link className="underline-animation" to={"/contact"}>
+            <Link
+              className="underline-animation"
+              to={"/Portfolio-Project/contact"}
+            >
               Contact
             </Link>
           </li>
