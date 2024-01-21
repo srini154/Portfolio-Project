@@ -9,10 +9,10 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" Component={Landing} />
-        <Route exact path="/about" Component={About} />
-        <Route exact path="/projects" Component={Projects} />
-        <Route exact path="/contact" Component={Contact} />
+        <Route exact path="/Portfolio-Project" Component={Landing} />
+        <Route exact path="/Portfolio-Project/about" Component={About} />
+        <Route exact path="/Portfolio-Project/projects" Component={Projects} />
+        <Route exact path="/Portfolio-Project/contact" Component={Contact} />
         <Route path="*" element={<p>Invalid Path</p>} />
       </Routes>
     </BrowserRouter>
